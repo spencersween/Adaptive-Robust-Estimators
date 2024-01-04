@@ -140,7 +140,3 @@ Y = data %>% dplyr::select(y) %>% as.matrix()
 Results = so_robust_regression(X = X, Y = Y, type = "Huber", iter = 10000, lr = 0.0100, m_factor = 1, print_var = "Treatment")
 print(Results$Table)
 Results$Plot
-
-
-
-print("hey did i make changes")
